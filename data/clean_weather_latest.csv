@@ -1,0 +1,62 @@
+city,datetime,temperature,feels_like,humidity,wind_speed,weather
+Zamboanga City,2025-08-11 00:52:44.717599,29.47,,75,,scattered clouds
+Davao City,2025-08-11 00:52:43.444746,29.44,,81,,light rain
+Cagayan de Oro,2025-08-11 00:52:42.166205,29.51,,65,,few clouds
+Butuan,2025-08-11 00:52:40.69921,28.44,,77,,moderate rain
+Puerto Princesa City,2025-08-11 00:52:39.286425,28.99,,71,,broken clouds
+Bacolod City,2025-08-11 00:52:38.01381,28.21,,76,,broken clouds
+Iloilo City,2025-08-11 00:52:36.744901,28.6,,72,,overcast clouds
+Tagbilaran City,2025-08-11 00:52:35.476793,28.77,,70,,clear sky
+Cebu City,2025-08-11 00:52:34.203352,28.99,,70,,broken clouds
+Tacloban City,2025-08-11 00:52:32.935634,27.93,,81,,few clouds
+Puerto Galera,2025-08-11 00:52:31.665854,29.5,,78,,overcast clouds
+Naga,2025-08-11 00:52:30.39092,28.81,,72,,broken clouds
+Lucena City,2025-08-11 00:52:29.110116,30.45,,66,,broken clouds
+Tagaytay,2025-08-11 00:52:27.834084,26.7,,71,,overcast clouds
+Santo Tomas,2025-08-11 00:52:26.551903,29.74,,72,,overcast clouds
+Los Baños,2025-08-11 00:52:25.252667,30.12,,74,,overcast clouds
+Taytay,2025-08-11 00:52:23.977069,30.61,,77,,overcast clouds
+Manila,2025-08-11 00:52:22.704554,30.52,,76,,overcast clouds
+Bocaue,2025-08-11 00:52:21.437591,30.49,,75,,broken clouds
+Tarlac City,2025-08-11 00:52:20.16491,29.54,,76,,broken clouds
+Subic,2025-08-11 00:52:18.878829,29.64,,75,,overcast clouds
+Dagupan,2025-08-11 00:52:17.602749,27.95,,76,,broken clouds
+City of Balanga,2025-08-11 00:52:16.335182,26.14,,75,,overcast clouds
+Tuguegarao City,2025-08-11 00:52:15.05906,27.27,,82,,overcast clouds
+Baguio City,2025-08-11 00:52:13.670577,21.52,,72,,overcast clouds
+San Fernando,2025-08-11 00:52:12.386864,28.35,,72,,overcast clouds
+Laoag City,2025-08-11 00:52:11.110606,28.62,,81,,overcast clouds
+Vigan,2025-08-11 00:52:09.634245,29.24,,84,,overcast clouds
+Aparri,2025-08-11 00:52:08.11221,27.85,,78,,scattered clouds
+Basco,2025-08-11 00:52:06.833127,29.06,,75,,overcast clouds
+Zamboanga City,2025-08-11 00:49:39.066761,29.47,,75,,scattered clouds
+Davao City,2025-08-11 00:49:37.776782,29.44,,81,,overcast clouds
+Cagayan de Oro,2025-08-11 00:49:36.493837,29.51,,65,,few clouds
+Butuan,2025-08-11 00:49:35.196261,28.44,,77,,overcast clouds
+Puerto Princesa City,2025-08-11 00:49:33.901537,28.99,,71,,broken clouds
+Bacolod City,2025-08-11 00:49:32.620301,28.21,,76,,broken clouds
+Iloilo City,2025-08-11 00:49:31.340126,28.6,,72,,overcast clouds
+Tagbilaran City,2025-08-11 00:49:30.053799,28.77,,70,,clear sky
+Cebu City,2025-08-11 00:49:28.764707,28.99,,70,,broken clouds
+Tacloban City,2025-08-11 00:49:27.479677,27.93,,81,,few clouds
+Puerto Galera,2025-08-11 00:49:26.181748,29.5,,78,,overcast clouds
+Naga,2025-08-11 00:49:24.896656,28.81,,72,,broken clouds
+Lucena City,2025-08-11 00:49:23.605126,30.45,,66,,broken clouds
+Tagaytay,2025-08-11 00:49:22.327823,26.7,,71,,overcast clouds
+Santo Tomas,2025-08-11 00:49:21.035241,29.74,,72,,overcast clouds
+Los Baños,2025-08-11 00:49:19.747105,30.15,,74,,overcast clouds
+Taytay,2025-08-11 00:49:18.463549,30.61,,77,,overcast clouds
+Manila,2025-08-11 00:49:17.185475,30.55,,76,,overcast clouds
+Bocaue,2025-08-11 00:49:15.916003,30.49,,75,,broken clouds
+Tarlac City,2025-08-11 00:49:14.631607,29.54,,76,,broken clouds
+Subic,2025-08-11 00:49:13.352471,29.64,,75,,overcast clouds
+Dagupan,2025-08-11 00:49:12.071837,27.95,,76,,broken clouds
+Tuguegarao City,2025-08-11 00:49:09.325034,27.27,,82,,overcast clouds
+Baguio City,2025-08-11 00:49:08.050519,21.52,,72,,overcast clouds
+San Fernando,2025-08-11 00:49:06.765904,28.35,,72,,overcast clouds
+Laoag City,2025-08-11 00:49:05.482207,28.62,,81,,overcast clouds
+Vigan,2025-08-11 00:49:04.198763,29.24,,84,,overcast clouds
+Aparri,2025-08-11 00:49:02.919165,27.85,,78,,scattered clouds
+Basco,2025-08-11 00:49:01.602081,29.06,,75,,overcast clouds
+Los Baños,2025-08-10 22:56:45.48224,28.22,,87,,overcast clouds
+Los Baños,2025-08-10 22:55:03.859885,28.22,,87,,overcast clouds
