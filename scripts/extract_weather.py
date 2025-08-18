@@ -14,7 +14,6 @@ BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 RATE_DELAY_SEC = float(os.getenv("RATE_DELAY_SEC", "1.2"))
 MAX_RETRIES = 3
 
-# (display_name, query_string_for_API)
 CITIES = [
     ("Batanes", "Basco,PH"),
     ("Aparri", "Aparri,PH"),
@@ -61,7 +60,7 @@ def ow_get(session, params):
             if attempt == MAX_RETRIES:
                 raise
             sleep_s = RATE_DELAY_SEC * (2 ** (attempt - 1))
-            print(f"⚠️  Retry {attempt}/{MAX_RETRIES} after error: {e}. Sleeping {sleep_s:.1f}s")
+            print(f"  Retry {attempt}/{MAX_RETRIES} after error: {e}. Sleeping {sleep_s:.1f}s")
             time.sleep(sleep_s)
 
 def ensure_table(cur):
@@ -126,7 +125,6 @@ def main():
             rain_3h = rain.get("3h")
             weather_desc = (data.get("weather") or [{}])[0].get("description")
 
-            # Observed time from API (UTC); fallback to now(UTC)
             dt_unix = data.get("dt")
             observed_at = datetime.fromtimestamp(dt_unix, tz=timezone.utc) if dt_unix \
                           else datetime.now(timezone.utc)
@@ -137,11 +135,11 @@ def main():
                 rain_1h, rain_3h, weather_desc, observed_at
             ))
 
-            print(f"✅ {city_name} ({country}) @ {observed_at.isoformat()}  "
+            print(f" {city_name} ({country}) @ {observed_at.isoformat()}  "
                   f"temp={temperature}°C hum={humidity}% wind={wind_mps}m/s")
 
         except Exception as e:
-            print(f"⚠️  Skipping {display_name} ({query_str}): {e}")
+            print(f"  Skipping {display_name} ({query_str}): {e}")
 
         time.sleep(RATE_DELAY_SEC)
 
