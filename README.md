@@ -24,3 +24,8 @@ This pipeline automates the process of:
 
 ---
 
+## Documentation
+The full documentation of the project can be accessed at https://medium.com/@francischan478/weather-data-pipeline-with-python-airflow-and-power-bi-cd179e2669fe
+
+
+
